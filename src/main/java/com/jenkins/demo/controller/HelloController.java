@@ -11,4 +11,10 @@ public class HelloController {
    {
        return "/index.html";
    }
+
+    @RequestMapping(value = "/",method = RequestMethod.GET)
+    public String test ()
+    {
+        return "/index.html";
+    }
 }
